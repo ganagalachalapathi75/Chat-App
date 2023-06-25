@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #80db17;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.chat-header{
+    color: rgb(58, 4, 207);
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'roboto';
+    font-style: normal;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.first-header {
+color: black;
+padding-top: 30px;    
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+.container {
+    background-image: url("https://southernersays.com/wp-content/uploads/2021/02/WhatApp-Screenshot-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.like-button {
+  margin-left: 10px;
+}
+
+.mention-button {
+  margin-left: 10px;
+}
